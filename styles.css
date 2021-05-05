@@ -1,3 +1,29 @@
-h1 {
-  color:blueviolet;
+body {
+  color: rgba(25, 25, 25, 1)
+}
+
+.heading {
+  margin: 10px;
+}
+.panel {
+  width: 100%;
+  margin-top: 25px;
+  min-height: 500px;
+}
+
+.section-heading {
+  margin: 10px;
+}
+
+.item {
+  width: 250px;
+  height:250px;
+  background-color: cornflowerblue;
+  display: inline-block;
+  margin: 25px;
+  visibility: hidden;
+}
+
+.shown {
+  visibility: visible;
 }
