@@ -21,9 +21,15 @@ body {
   background-color: cornflowerblue;
   display: inline-block;
   margin: 25px;
-  visibility: hidden;
+  /* visibility: hidden; */
+  opacity: 0;
 }
 
 .shown {
-  visibility: visible;
+  /* visibility: visible; */
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-delay: 0.2s;
+
 }
